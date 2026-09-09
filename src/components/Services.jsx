@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass , faPlus , faStar } from '@fortawesome/free-solid-svg-icons'
+import manchuria from "../assets/manchuria.jpg"
+import noodles from "../assets/Noodles.jpg"
 
 export default function Services({}) {
 
@@ -16,7 +18,7 @@ export default function Services({}) {
       price: 180,
       rating: 5,
       time: "15-20 min",
-      image: "src/assets/manchuria.jpg"
+      image: manchuria
 
     },
 
@@ -28,7 +30,7 @@ export default function Services({}) {
       price: 120,
       rating: 4.3,
       time: "15-20 min",
-      image: "/src/assets/Noodles.jpg"
+      image: noodles
     },
 
     {
