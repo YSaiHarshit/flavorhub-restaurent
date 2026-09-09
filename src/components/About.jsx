@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLeaf, faStar, faUtensils, faUserTie, faHeart, faBowlFood } from '@fortawesome/free-solid-svg-icons'
-
+import food from '../assets/food.jpg'
 
 export default function About() {
 
@@ -48,7 +48,7 @@ export default function About() {
         </div>
 
         <div className="img">
-          <img src="src/assets/food.jpg" alt="src" style={{ height: "600px", width: "480px" }} />
+          <img src={food} alt="src" style={{ height: "600px", width: "480px" }} />
         </div>
       </div>
 

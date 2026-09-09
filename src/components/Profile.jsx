@@ -6,6 +6,10 @@ import {
   faUser
 } from '@fortawesome/free-solid-svg-icons';
 
+import paneerpizza from "../assets/paneer pizza.jpg"
+import vegburger from "../assets/Burger.jpg"
+import vegmanchuria from "../assets/manchuria.jpg"
+import frenchfries from "../assets/french fries.jpg"
 
 export default function Profile() {
 
@@ -41,7 +45,7 @@ const [darkMode, setDarkMode] = useState(false);
       name: "Paneer Pizza",
       rating: 4.8,
       price: 250,
-      image: "src/assets/paneer pizza.jpg"
+      image: paneerpizza
 
     },
 
@@ -51,7 +55,7 @@ const [darkMode, setDarkMode] = useState(false);
       name: "Veg Burger",
       rating: 4.6,
       price: 150,
-      image: "src/assets/Burger.jpg"
+      image: vegburger
 
     },
 
@@ -61,7 +65,7 @@ const [darkMode, setDarkMode] = useState(false);
       name: "Veg Manchuria",
       rating: 4.7,
       price: 180,
-      image: "src/assets/manchuria.jpg"
+      image: vegmanchuria
 
     },
 
@@ -71,7 +75,7 @@ const [darkMode, setDarkMode] = useState(false);
       name: "French Fries",
       rating: 4.5,
       price: 150,
-      image: "src/assets/french fries.jpg"
+      image: frenchfries
 
     }
   ]
@@ -99,12 +103,6 @@ const [darkMode, setDarkMode] = useState(false);
 
     reader.readAsDataURL(file);
 
-  }
-
-  const removeImage = () => {
-
-    setImage(profileImage)
-    showPopup("Profile Picture Removed!")
   }
 
   const handleChange = (e) => {

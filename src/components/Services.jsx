@@ -16,6 +16,7 @@ import mushroom65 from "../assets/mushroom 65.jpg"
 import chillipaneer from "../assets/chilli paneer.jpg"
 import paneer65 from "../assets/paneer 65.jpg"
 import chickenwings from "../assets/chicken wings.jpg"
+import snack from "../assets/snacks.jpg"
 
 export default function Services({}) {
 
@@ -228,7 +229,7 @@ export default function Services({}) {
 
         <div className="right-img">
           <a href="">
-            <img src="src/assets/snacks.jpg" alt="" style={{ height: "260px", width: "405px", borderRadius: "15px" }} />
+            <img src={snack} alt="snack" style={{ height: "260px", width: "405px", borderRadius: "15px" }} />
           </a>
         </div>
 
