@@ -3,6 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass , faPlus , faStar } from '@fortawesome/free-solid-svg-icons'
 import manchuria from "../assets/manchuria.jpg"
 import noodles from "../assets/Noodles.jpg"
+import vegburger from "../assets/Burger.jpg"
+import frenchfries from "../assets/french fries.jpg"
+import paneerpizza from "../assets/paneer pizza.jpg"
+import samosa from "../assets/samosa.jpg"
+import paneerroll from "../assets/paneer roll.jpg"
+import vadapav from "../assets/vada pav.jpg"
+import chickenmanchuria from "../assets/chicken manchuria.jpg"
+import paneertikka from "../assets/paneer tikka.jpg"
+import springrolls from "../assets/spring rolls.jpg"
+import mushroom65 from "../assets/mushroom 65.jpg"
+import chillipaneer from "../assets/chilli paneer.jpg"
+import paneer65 from "../assets/paneer 65.jpg"
+import chickenwings from "../assets/chicken wings.jpg"
 
 export default function Services({}) {
 
@@ -41,7 +54,7 @@ export default function Services({}) {
       price: 70,
       rating: 4.2,
       time: "15-20 min",
-      image: "src/assets/Burger.jpg"
+      image: vegburger
     },
 
     {
@@ -52,7 +65,7 @@ export default function Services({}) {
       price: 150,
       rating: 5,
       time: "20-25 min",
-      image: "src/assets/french fries.jpg"
+      image: frenchfries
 
     },
 
@@ -64,7 +77,7 @@ export default function Services({}) {
       price: 150,
       rating: 5,
       time: "10-20 min",
-      image: "src/assets/paneer pizza.jpg"
+      image: paneerpizza
 
     },
 
@@ -76,7 +89,7 @@ export default function Services({}) {
       price: 80,
       rating: 4,
       time: "10-25 min",
-      image: "src/assets/samosa.jpg"
+      image: samosa
     },
 
     {
@@ -87,7 +100,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/paneer roll.jpg"
+      image: paneerroll
 
     },
 
@@ -99,8 +112,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/vada pav.jpg"
-
+      image: vadapav
     },
 
      {
@@ -111,7 +123,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/chicken manchuria.jpg"
+      image: chickenmanchuria
 
     },
 
@@ -124,7 +136,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/paneer tikka.jpg"
+      image: paneertikka
 
     },
 
@@ -137,7 +149,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/spring rolls.jpg"
+      image: springrolls
 
     },
 
@@ -150,7 +162,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/mushroom 65.jpg"
+      image: mushroom65
 
     },
 
@@ -163,7 +175,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/chilli paneer.jpg"
+      image: chillipaneer
 
     },
 
@@ -175,7 +187,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/paneer 65.jpg"
+      image: paneer65
 
     },
 
@@ -187,7 +199,7 @@ export default function Services({}) {
       price: 150,
       rating: 4.5,
       time: "10-25 min",
-      image: "src/assets/chicken wings.jpg"
+      image: chickenwings
 
     },
 

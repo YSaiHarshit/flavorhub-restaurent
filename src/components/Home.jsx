@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import restaurent_img from "../assets/restaurent_img.png"
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
     <div className="homes">
 
 
-      <img src="src/assets/restaurent_img.png" alt="img" style={{ height: "650px", width: "1520px" }} />
+      <img src={restaurent_img} alt="img" style={{ height: "650px", width: "1520px" }} />
 
       <div className="home-content">
 
